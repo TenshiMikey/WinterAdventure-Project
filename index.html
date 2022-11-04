@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navagation-->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navBrand">
+            <a class="navbar-brand" href="index.html">Winter Adventure</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#top">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Accommodation">Accommodation</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Service">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                      </li>
+                    </ul>
+              </div>
+          </nav>   
+    </header>
+    
+    <!--Video-->
+    <div class="card m-0 p-0 vidText">
+          <video autoplay>
+            <source src="media/media/video/Mt_Baker.mp4" type="video/mp4">
+          </video>
+
+          <div class="containerImg">
+              <img class="imageMobile" src="media/media/video/mobile/mobile-home-page.jpg" alt="">
+          </div>
+
+            <div class="card-img-overlay topText">
+              <h2 class="card-text topH2">Holidays in the snow...</h2>
+              <p class="card-text topP">Skiing and snowboarding accommodation</p>
+            </div>
+    </div> 
+
+    <!--Accomodation/cards-->
+    <section class="container p-5" id="Accommodation"> 
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card h-100">
+            <img src="media/media/chalet1.jpg" class="card-img-top" alt="chalet1">
+            <div class="card-body">
+              <h5 class="card-title">Tignes</h5>
+              <h6 class="sub-head">France</h6>
+              <p class="card-text">
+                A very well furnished chalet. The Kalinda is great for those who are after a range of facilities but don’t wish to travel far. 
+                Spa's, gyms, restaurants and a ski shop are right on your doorstep.</p>
+              <a href="Tignes.html" class="btn btn-primary">More details...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="media/media/chalet2.jpg" class="card-img-top" alt="chalet2">
+            <div class="card-body">
+              <h5 class="card-title">Morzine</h5>
+              <h6 class="sub-head">France</h6>
+              <p class="card-text">
+                Situated in St Jean d’Aulps in the "Portes du Soleil" on the Grande Route des Alpes and 30 minutes south of Lake Geneva - a perfect spot for holidays all year round. 
+                A 10 minute walk from the centre of the village.</p>
+              <a href="Morzine.html" class="btn btn-primary">More details...</a>
+            </div>
+          </div>
+        </div>  
+        <div class="col">
+          <div class="card h-100">
+            <img src="media/media/chalet3.jpg" class="card-img-top" alt="chalet3">
+            <div class="card-body">
+              <h5 class="card-title">La Tania</h5>
+              <h6 class="sub-head">France</h6>
+              <p class="card-text">
+                Chalet 715 is our premier luxury chalet catering for 15 guests. We've created a unique, warm, welcoming, home away from home for all the old and new. 
+                30 minutes from Lake Geneva - a perfect spot for holidays all year round.</p>
+              <a href="la-Tania.html" class="btn btn-primary">More details...</a>
+            </div>
+          </div>
+        </div>    
+
+      </div>
+    </section>
+    
+    <!--service Area-->
+    <section class="container-fluid p-5 bg-info" id="Service">
+      <div class="container">
+        <div class="row row-cols-md-2 row-cols-1" id="serText">
+          <div class="col">
+            <h2>Services</h2>
+                  <p>
+                    Anyone who has travelled with us will know that it is the experience, quality and dedication of our ski resort teams and our in-resort ski services that really 
+                    sets us apart from anything else you are likely to experience. We aim to continually exceed clients expectations and ensure every time a client skis with us, 
+                    it is their best ski holiday so far.</p>
+
+                  <p class="ps-3"><i class="bi bi-check2-square"></i> Our childcare teams deliver a unique service, ensuring that every child gets the attention & support they need.</p>
+                  <p class="ps-3"><i class="bi bi-check2-square"></i> comprehensive range of ski programmes ensure that all our clients enjoy their time in the mountains.</p>      
+          </div>
+          <div class="col">
+              <img class="img-fluid" src="media/media/ski-services.jpg" alt="ski-services" id="ServeImg">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Area-->
+    <section class="container-fluid pt-3 bg-light" id="Contact">
+      <div class="container">
+        <h3 id="form">Contact Form</h3>
+
+        <form action="/action_page.php">
+          <div class="row mt-1">
+            <label for="fname"></label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+          <div class="row mt-1">
+            <label for="lname"></label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+          <div class="row mt-1">
+            <label for="area"></label>
+            <select id="area" name="area">
+              <option value="accommodation">Accommodation</option>
+              <option value="service">Service</option>
+            </select>
+          </div>
+          <div class="row mt-1">
+            <label for="subject"></label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+          <div class="row mt-1 mb-2">
+            <input class="btn btn-primary" type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="bg-dark text-center">
+        <canvas id="canVas" width="20" height="20"></canvas>
+          <P>Winter Adventure 2019</P>
+      </div>
+      
+
+    </footer>
+    <script src="script/localStorage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

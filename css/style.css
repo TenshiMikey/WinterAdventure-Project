@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.ChaletSt {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
+/*wethaer flex*/
+#container {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+} .item {
+    align-self: center;
+}
+
+/*map*/
+#mapContainer {
+    width: 50vw;
+    height: 50vh;
+}
+
+.container.flex {
+    height: 500px;
+    background-color: black;
+}
+
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    opacity: 0.8;
+    width: 100vw;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+/*Video area*/ 
+ #vidCon {
+     margin: 0px;
+     padding: 0px;
+ }
+
+.containerImg {
+     display: none;
+ }
+
+video {
+    width: 100vw;
+}
+
+.topH2 {
+    font-size: 80px;
+}
+.topP {
+    font-size: 30px;
+}
+.topText {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ServeImg {
+    border-radius: 50%;
+}
+
+footer {
+    color: #fff;
+    height: 50px;
+    display: flex;
+}
+
+@media only screen and (max-width: 650px) {
+    
+     video {
+         display: none;
+     }
+     .containerImg {
+        height:100vh;
+        display: block;
+    }
+    .imageMobile {
+        align-self: center;
+        height: 100vh;
+    }
+
+    .topText {
+        text-align: left;
+        padding-left: 0%;
+    }
+}
